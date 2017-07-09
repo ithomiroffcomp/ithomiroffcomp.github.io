@@ -57,6 +57,8 @@ body {
       padding: 15px	15px;
       background-color: #fff;
       height: 95px; }
+      body .site-header .top-line .phone-media {
+        display: inline-block; }
       body .site-header .top-line nav {
         text-align: center; }
         body .site-header .top-line nav ul {
@@ -108,15 +110,16 @@ body {
       body .top-screen .top-info h2 {
         color: #fff;
         font-family: "OpenSansCondensedLight", sans-serif;
-        text-align: center; }
+        text-align: center;
+        font-size: 30px; }
       body .top-screen .top-info h1 {
         color: #fff;
         font-family: 'Roboto Condensed', sans-serif;
-        line-height: 1.6;
-        font-size: 30px;
+        line-height: 1.4;
+        font-size: 40px;
         text-transform: uppercase;
         text-align: center;
-        margin-top: 35%; }
+        margin-top: 20%; }
       body .top-screen .top-info button {
         background-color: transparent;
         border: 2px solid #fff;

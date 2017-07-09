@@ -5853,7 +5853,7 @@ h1 {
     width: 600px;
     height: 0.4px;
     margin-top: 30px; }
-  .transport .slider {
+  .transport .slider-1 {
     margin-top: 60px; }
   .transport .item {
     -webkit-box-shadow: 30px 0px 20px rgba(245, 234, 234, 0.5);
@@ -5861,6 +5861,21 @@ h1 {
   .transport h1 {
     margin-top: 40px;
     margin-bottom: 80px; }
+
+.partners {
+  width: 100%;
+  padding: 20px; }
+  .partners .slider-2 {
+    position: relative;
+    width: 100%; }
+    .partners .slider-2 .item {
+      width: 150px;
+      margin-left: 60px; }
+    .partners .slider-2 img {
+      width: 120px; }
+  .partners h1 {
+    color: #3f5f97;
+    margin-bottom: 40px; }
 
 .feedback {
   width: 100%;
@@ -5931,7 +5946,7 @@ h1 {
     text-transform: uppercase;
     color: #3f5f97;
     font-size: 20px;
-    margin-top: 80px; }
+    margin-top: 65px; }
     .footer .footer-right .fa {
       margin-left: 20px; }
   .footer .footer-left {
@@ -5940,7 +5955,7 @@ h1 {
     text-transform: uppercase;
     color: #3f5f97;
     font-size: 20px;
-    margin-top: 80px; }
+    margin-top: 100px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -5954,7 +5969,9 @@ h1 {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   /**/
-  ul {
+  .top-line .phone-media {
+    display: inline-block; }
+  nav {
     display: none; }
   .logo {
     text-align: center; }
@@ -5983,7 +6000,8 @@ h1 {
 @media only screen and (max-width: 480px) {
   /**/
   .top-h {
-    margin-top: 20%; } }
+    margin-top: 10%;
+    font-size: 40px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
