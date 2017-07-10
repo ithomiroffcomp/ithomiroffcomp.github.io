@@ -20,31 +20,24 @@ $(document).ready(function(){
         }
       });
 
+      $('#popup').magnificPopup({
+          type: 'inline',
 
-  var owl1 = $('.slider-2');
-      owl1.owlCarousel({
-        margin: 10,
-        items:4,
-        itemMargin:0,
-        center:true,
-        loop: true,
-        autoplay:true,
-        stagePadding: 220,
-        smartSpeed:1000,
-        responsive: {
-          0: {
-            items: 1,
-            margin: 10
-          },
-          600: {
-            items: 2,
-            margin:10
-          },
-          1000: {
-            items: 3
-          }
-        }
+          fixedContentPos: false,
+          fixedBgPos: true,
+
+          overflowY: 'auto',
+
+          closeBtnInside: true,
+          preloader: false,
+          
+          midClick: true,
+          removalDelay: 300,
+          mainClass: 'my-mfp-zoom-in'
       });
+
+
+  
 
 
 
@@ -63,4 +56,28 @@ $(document).ready(function(){
 
 
 
+});
+$(document).ready(function(){
+  var owl_two = $('.slider-2');
+      owl_two.owlCarousel({
+        margin: 10,
+        loop: true,
+        nav:false,
+        autoplay: true,
+        smartSpeed:1000,
+        responsive: {
+          0: {
+            items: 2,
+            margin:150
+          },
+          600: {
+            items: 3,
+            margin:150
+          },
+          1000: {
+            items: 5,
+            margin:150
+          }
+        }
+      });
 });
