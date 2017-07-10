@@ -5348,13 +5348,14 @@ h1 {
   position: relative;
   display: inline-block;
   min-height: 250px;
+  padding-top: 20px;
   padding-bottom: 50px;
   width: 100%;
   text-align: center;
   background-color: #fff; }
   .services h1 {
     color: #3f5f97;
-    margin-top: 30px; }
+    margin-top: 10px; }
   .services .window-service {
     margin-top: 30px; }
     .services .window-service:hover img {
