@@ -61,6 +61,28 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     -webkit-border-radius: 25px;
             border-radius: 25px; }
+    body #form .success {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      text-transform: uppercase;
+      z-index: 10; }
+      body #form .success span {
+        margin: auto;
+        text-transform: uppercase;
+        color: #3f5f97;
+        font-size: 18px; }
+      body #form .success ~ * {
+        -webkit-transition: all .5s easy;
+        -o-transition: all .5s easy;
+        transition: all .5s easy; }
+      body #form .success.active ~ * {
+        opacity: .5;
+        -webkit-filter: blur(10px);
+                filter: blur(10px); }
     body #form p {
       text-align: center;
       text-transform: uppercase;
@@ -76,9 +98,11 @@ body {
       border: 1px solid #3f5f97; }
     body #form .sub {
       background-color: #3f5f97;
-      -webkit-border-radius: 0;
-              border-radius: 0;
-      color: #fff; }
+      border: 0;
+      -webkit-border-radius: 10px;
+              border-radius: 10px;
+      color: #fff;
+      padding: 10px 20px; }
       body #form .sub:hover {
         -webkit-box-shadow: 1px 0px 12px rgba(0, 0, 0, 0.6);
                 box-shadow: 1px 0px 12px rgba(0, 0, 0, 0.6); }

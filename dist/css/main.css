@@ -5303,7 +5303,7 @@ body textarea:required:valid {
   width: 100%;
   min-height: 300px;
   background-color: #fff;
-  padding-bottom: 20px; }
+  padding: 10px 10px; }
   .advent .line {
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -5504,12 +5504,12 @@ h1 {
   .logo {
     text-align: center; }
   .passangers {
-    margin-top: 20px; }
-  .advents {
-    margin-bottom: 40px; } }
+    margin-top: 20px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .transport .slider-1 {
+    margin-top: 10px; }
   /*Disable Animation on Mobile Devices*/
   .animated {
     /*CSS transitions*/
