@@ -89,13 +89,22 @@ body {
       color: #3f5f97;
       font-size: 18px;
       margin-bottom: 30px; }
+    body #form .conf {
+      font-size: 10px;
+      color: #304873;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 0.02; }
+      body #form .conf .in-conf {
+        margin-top: 2px;
+        margin-bottom: 10px; }
     body #form input {
       margin-bottom: 20px;
       color: #3f5f97;
       padding: 10px 80px;
       -webkit-border-radius: 15px;
               border-radius: 15px;
-      border: 1px solid #3f5f97; }
+      border: 1px solid #3f5f97;
+      outline: none; }
     body #form .sub {
       background-color: #3f5f97;
       border: 0;

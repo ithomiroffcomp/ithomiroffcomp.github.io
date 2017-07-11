@@ -5461,6 +5461,8 @@ h1 {
     .footer .footer-center p {
       margin: 20px 10px;
       color: #304873; }
+      .footer .footer-center p a {
+        font-size: 10px; }
     .footer .footer-center h1 {
       margin-top: 15px;
         margin-top-margin-bottom: 55px;

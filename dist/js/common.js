@@ -34,6 +34,26 @@ $(document).ready(function(){
       });
 
 
+      $("#form").submit(function() {
+        $.ajax({
+          type: "POST",
+          url: "mail.php",
+          data: $(this).serialize()
+        }).done(function() {
+          $("#form").find('.success').addClass('active').css('display','flex').hide().fadeIn();      
+          setTimeout(function(){
+            $("#form").find('.success').removeClass('active').hide().fadeOut();
+            $("#form").trigger("reset");
+            $('#popup').magnificPopup('close');      
+          },3000);
+
+
+        });
+        return false;
+      });
+
+
+
   
 
 
@@ -50,6 +70,8 @@ $(document).ready(function(){
           window.location.hash = target;
         });
       });
+
+
 
 
 
