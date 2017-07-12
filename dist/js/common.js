@@ -1,3 +1,7 @@
+$(window).on('load',function(){
+  $('.preloader').delay(1000).fadeOut('slow');
+});
+
 $(document).ready(function(){
   
   var owl = $('.slider-1');
@@ -106,3 +110,4 @@ $(document).ready(function(){
         }
       });
 });
+
