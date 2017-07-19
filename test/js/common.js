@@ -1,0 +1,1 @@
+$(".toggle-mnu").click(function(){return $(this).toggleClass("on"),$(".main-mnu").slideToggle(),!1}),$(document).ready(function(){$(".owl-carousel").owlCarousel({loop:!0,autoplay:!0,autoplayTimeout:2e3,responsive:{0:{items:1},600:{items:1},1e3:{items:1}}})});
