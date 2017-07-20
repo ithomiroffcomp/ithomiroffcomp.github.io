@@ -1,1 +1,19 @@
-$(document).ready(function(){$(".owl-carousel").owlCarousel({loop:!0,autoplay:!0,autoplayTimeout:3e3,responsive:{0:{items:1},600:{items:1},1e3:{items:1}}})});
+$(document).ready(function() {
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        smartSpeed: 800,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1e3: {
+                items: 1
+            }
+        }
+    })
+});
